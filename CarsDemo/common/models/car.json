@@ -1,0 +1,35 @@
+{
+  "name": "Car",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "img_url": {
+      "type": "string",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,67 @@
+type: bluemix
+server:
+  displayName: United Kingdom
+  name: eu-gb
+  host: eu.apiconnect.ibmcloud.com
+org:
+  url: 'https://eu.apiconnect.ibmcloud.com/v1/orgs/570a67610cf2b2662654f9e3'
+  id: 570a67610cf2b2662654f9e3
+  name: garykeanukibmcom-apiconnect
+  status: active
+  orgType: apiProvider
+  displayName: gary.kean@uk.ibm.com (APIConnect)
+  externalOrgId: 1cfa5943-d286-431b-982c-0608e0011e16
+  externalInviteOverride: 'https://new-console.eu-gb.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: 1cfa5943-d286-431b-982c-0608e0011e16
+  externalNativeOrgId: 58a82863-c817-4359-847c-d8fc06a1d58b
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+catalog:
+  id: 570a67610cf2b2662654f9ea
+  shortName: sb
+  name: Sandbox
+  sandbox: true
+app:
+  metadata:
+    guid: e50f2ef2-3e81-47aa-a601-6f78049fa4a2
+    url: /v2/apps/e50f2ef2-3e81-47aa-a601-6f78049fa4a2
+    created_at: '2016-05-10T19:40:51Z'
+    updated_at: '2016-05-10T19:47:46Z'
+  entity:
+    name: MyCarsDemo
+    production: false
+    space_guid: 1cfa5943-d286-431b-982c-0608e0011e16
+    stack_guid: 423dd340-c07e-44c2-b7fb-601c10fd32d3
+    buildpack: null
+    detected_buildpack: 'SDK for Node.js(TM) (ibm-node.js-4.4.3, buildpack-v3.3-20160428-1409)'
+    environment_json: {}
+    memory: 512
+    instances: 1
+    disk_quota: 1024
+    state: STARTED
+    version: 9f2d8a8a-81d2-496e-82a1-416f25618379
+    command: null
+    console: true
+    debug: null
+    staging_task_id: 1053fac8f1bc4f79bca72934adb14858
+    package_state: STAGED
+    health_check_type: port
+    health_check_timeout: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: false
+    docker_image: null
+    package_updated_at: '2016-05-10T19:41:04Z'
+    detected_start_command: ./vendor/initial_startup.rb
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports: null
+    space_url: /v2/spaces/1cfa5943-d286-431b-982c-0608e0011e16
+    stack_url: /v2/stacks/423dd340-c07e-44c2-b7fb-601c10fd32d3
+    events_url: /v2/apps/e50f2ef2-3e81-47aa-a601-6f78049fa4a2/events
+    service_bindings_url: /v2/apps/e50f2ef2-3e81-47aa-a601-6f78049fa4a2/service_bindings
+    routes_url: /v2/apps/e50f2ef2-3e81-47aa-a601-6f78049fa4a2/routes
+id: baee5c8a-a07a-49b5-8cf8-69877f3e2d39
+target: 1.0.0

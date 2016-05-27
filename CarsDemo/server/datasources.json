@@ -1,0 +1,37 @@
+{
+  "Cloudant Cars DB": {
+    "url": "",
+    "database": "wug_demo",
+    "username": "",
+    "password": "",
+    "name": "Cloudant Cars DB",
+    "connector": "cloudant"
+  },
+  "watsonTranslate": {
+    "name": "watsonTranslate",
+    "connector": "rest",
+    "baseURL": "https://gateway.watsonplatform.net",
+    "operations": [
+      {
+        "template": {
+          "method": "GET",
+          "url": "https://<REPLACE>@gateway.watsonplatform.net/language-translation/api/v2/translate",
+          "query": {
+            "source": "{source}",
+            "target": "{target}",
+            "text": "[{content}]"
+          },
+          "responsePath": "$.translations"
+        },
+        "functions": {
+          "translate": [
+            "source",
+            "target",
+            "content"
+          ]
+        }
+      }
+    ],
+    "crud": "false"
+  }
+}

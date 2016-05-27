@@ -1,0 +1,29 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/570a6a5c0cf2765a58357f77'
+  id: 570a6a5c0cf2765a58357f77
+  name: garykeanukibmcom-apic
+  status: active
+  orgType: apiProvider
+  displayName: gary.kean@uk.ibm.com (apic)
+  externalOrgId: 9b27db24-2a69-4e6a-9642-5a1df8f0fe9c
+  externalInviteOverride: 'https://new-console.ng.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: 9b27db24-2a69-4e6a-9642-5a1df8f0fe9c
+  externalNativeOrgId: 20082000-e2ad-451f-949e-492a78285736
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+catalog:
+  id: 570a6a5c0cf2765a58357f7e
+  shortName: sb
+  name: Sandbox
+  sandbox: true
+app:
+  new: true
+  name: ConnectedCars
+id: 33d7eb9a-ec59-4461-9866-76a5690cebe8
+target: 1.0.0
